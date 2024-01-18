@@ -5,9 +5,22 @@
     --indigo_dye: #16425B;
     --sky_blue: #81C3D7;
 }
+
+*{
+    font-family: Tahoma, sans-serif;
+}
 body {
     background: var(--platinum);
     color: var(--indigo_dye);
+}
+
+p{
+    font-weight: 800;
+}
+
+.details{
+    font-style: italic;
+    padding: 24px;
 }
 
 h1{
@@ -17,8 +30,20 @@ h1{
 }
 .imageHolder{
     align-items: center;
-    box-shadow: 3px 3px 2px var(--cerulean)
+    box-shadow: 3px 3px 2px var(--cerulean);
+    margin: 10px auto;
 }
 .card{
+    background-color: var(--indigo_dye);
+    padding: 8px;
+    font-size: 20px;
+}
 
+.card li{
+    color: var(--platinum);
+}
+
+.easyclick li{
+    padding: 8px;
+    margin: 4px;
 }
